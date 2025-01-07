@@ -1,0 +1,8 @@
+python-dotenv
+requests
+gradio
+IPython
+huggingface_hub
+transformers
+bitsandbytes
+torch
