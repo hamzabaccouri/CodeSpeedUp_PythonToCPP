@@ -13,28 +13,27 @@ Install the required dependencies:
 ```bash
 pip install -q python-dotenv requests gradio IPython huggingface_hub transformers bitsandbytes
 
+## Usage
 
-Usage
-
-    Clone the Repository:
-
+Clone the Repository:
+Clone the repository to your local machine:
 git clone https://github.com/hamzabaccouri/CodeSpeedUp_PythonToCPP.git
+Navigate to the project directory:
 cd CodeSpeedUp_PythonToCPP
 
-Run the Notebook: Open the Python_to_CPP_Qwen_Converter.ipynb notebook in Jupyter or Colab.
+## Run the Notebook:
+Open the Python_to_CPP_Qwen_Converter.ipynb notebook in Jupyter or Colab.
 
-Launch the Gradio App: The Gradio interface allows you to:
+## Launch the Gradio App:
+Use the Gradio interface to:
+Input Python code.
+Generate the corresponding optimized C++ code.
+Compile and execute the generated code.
 
-    Input Python code.
-    Generate the corresponding optimized C++ code.
-    Compile and execute the code.
+Launch the app with: ui.launch(inbrowser=True, share=True)
 
-    ui.launch(inbrowser=True, share=True)
-
-File Structure
-
-.
-├── Python_to_CPP_Qwen_Converter.ipynb  # The main notebook with the full workflow
-├── optimized.cpp                      # Output file containing generated C++ code
-├── requirements.txt                   # Dependency list (optional)
-└── README.md                          # Documentatio
+## File Structure
+Python_to_CPP_Qwen_Converter.ipynb: The main notebook with the full workflow.
+optimized.cpp: Output file containing the generated C++ code.
+requirements.txt: Dependency list.
+README.md: Documentation.
